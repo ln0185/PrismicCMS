@@ -1,0 +1,26 @@
+{
+  "name": "eieio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@prismicio/client": "^7.15.1",
+    "@prismicio/next": "^2.0.0",
+    "@prismicio/react": "^3.0.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "autoprefixer": "^10.4.12",
+    "next": "^13.4.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.1"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.3.66",
+    "slice-machine-ui": "^2.12.3"
+  }
+}
