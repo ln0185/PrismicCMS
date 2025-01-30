@@ -13,8 +13,50 @@
 						}
 					}
 				]
+			},
+			"text_align": {
+				"__TYPE__": "FieldContent",
+				"value": "text-left",
+				"type": "Select"
 			}
 		},
 		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "callToAction",
+		"primary": {
+			"text_field": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Est ex laboris fugiat. Ea ut quis eiusmod labore eu consequat tempor proident voluptate elit fugiat consectetur. Consectetur ullamco cillum incididunt."
+						}
+					}
+				]
+			},
+			"button_link": {
+				"key": "c9b9ec6d-eadc-42c2-a49a-07b93d05fd98",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "tribe"
+				}
+			},
+			"button_label": {
+				"__TYPE__": "FieldContent",
+				"value": "tonight",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
 	}
 ]
