@@ -1,7 +1,7 @@
 {
   "format": "page",
-  "id": "homepage",
-  "label": "Homepage",
+  "id": "articles",
+  "label": "Articles",
   "repeatable": false,
   "status": true,
   "json": {
@@ -14,13 +14,7 @@
             "text_slice": {
               "type": "SharedSlice"
             },
-            "call_to_action_2": {
-              "type": "SharedSlice"
-            },
             "split_image_text": {
-              "type": "SharedSlice"
-            },
-            "hero": {
               "type": "SharedSlice"
             }
           }

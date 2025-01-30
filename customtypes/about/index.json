@@ -1,7 +1,7 @@
 {
   "format": "page",
-  "id": "homepage",
-  "label": "Homepage",
+  "id": "about",
+  "label": "About",
   "repeatable": false,
   "status": true,
   "json": {
@@ -12,15 +12,6 @@
         "config": {
           "choices": {
             "text_slice": {
-              "type": "SharedSlice"
-            },
-            "call_to_action_2": {
-              "type": "SharedSlice"
-            },
-            "split_image_text": {
-              "type": "SharedSlice"
-            },
-            "hero": {
               "type": "SharedSlice"
             }
           }
