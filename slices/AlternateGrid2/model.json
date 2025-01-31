@@ -1,8 +1,8 @@
 {
-  "id": "hero",
+  "id": "alternate_grid_2",
   "type": "SharedSlice",
-  "name": "Hero",
-  "description": "Hero",
+  "name": "AlternateGrid2",
+  "description": "AlternateGrid",
   "variations": [
     {
       "id": "default",
@@ -41,24 +41,37 @@
           "type": "Image",
           "config": {
             "label": "image",
-            "constraint": {
-              "height": 500,
-              "width": 700
-            },
+            "constraint": {},
             "thumbnails": []
           }
         },
-        "callToActionLink": {
-          "type": "Link",
+        "items": {
+          "type": "Group",
           "config": {
-            "label": "callToActionLink",
-            "placeholder": "",
-            "select": null,
-            "allowText": true
+            "label": "items",
+            "fields": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "title",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "heading2,heading3,heading4,heading5,heading6,strong,em"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "description",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,hyperlink,strong,em,list-item,o-list-item,rtl"
+                }
+              }
+            }
           }
         }
-      },
-      "items": {}
+      }
     },
     {
       "id": "imageRight",
@@ -97,24 +110,37 @@
           "type": "Image",
           "config": {
             "label": "image",
-            "constraint": {
-              "width": 700,
-              "height": 550
-            },
+            "constraint": {},
             "thumbnails": []
           }
         },
-        "callToActionLink": {
-          "type": "Link",
+        "items": {
+          "type": "Group",
           "config": {
-            "label": "callToActionLink",
-            "placeholder": "",
-            "select": null,
-            "allowText": true
+            "label": "items",
+            "fields": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "title",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "heading2,heading3,heading4,heading5,heading6,strong,em"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "description",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,hyperlink,strong,em,list-item,o-list-item,rtl"
+                }
+              }
+            }
           }
         }
-      },
-      "items": {}
+      }
     }
   ]
 }
