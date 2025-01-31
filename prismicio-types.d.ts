@@ -208,7 +208,6 @@ export type GlobalNavDocument<Lang extends string = string> =
   >;
 
 type HomepageDocumentDataSlicesSlice =
-  | CustomerLogos2Slice
   | TextSliceSlice
   | CallToAction2Slice
   | SplitImageTextSlice
